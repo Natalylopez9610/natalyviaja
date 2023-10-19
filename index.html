@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles2.css"/>
+    <script
+    src="https://kit.fontawesome.com/8d6b79b36f.js"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<body>
+    <header id="encabezado" >
+      <h1 class="logo">
+        <a href="index.html" class="fa-solid fa-heart"></a>
+      </h1>
+      <nav> 	
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+       <ul class="menu"> 
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de mi</a></li>
+        <li><a href="#">Viajes</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+       </ul> 
+      </nav>  
+     </header>
+     <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="acerca-de">
+                <h2>Acerca de mi</h2>
+                <p>¡Bienvenido a mi web!</p>
+                <p>
+                    Mi Nombre es Nataly Lopez y tengo 27 años, soy profesional en negocios internaciones,
+                     me gusta leer, hacer yoga y viajar. Mi mayor interes es vivir y aprender cada dia mas
+                    ya que la sabiduria es algo escencial para mi vida, en mi pagina web podran ver todas mis 
+                    aventuras y vivencias.
+                </p>
+            </div>
+            <div class="acerca-imagen">
+                <img src=IMG/viajes.jpg alt="imagen personal"/>
+            </div>
+        </section>
+        <section class= "seccion-2">
+            <img src=IMG/mundoo.avif width="100%"/>
+        </section>
+        <div class="Viajes_litle">
+            <h2>Mis viajes</h2>
+            </div>
+            <section class="Viajes">
+                <article class="viajes">
+                <div>    
+                    <img src=IMG/quito.jpg alt="viajes"/>
+                </div>
+                <div>
+                    <h3><a href="#">Quito</a></h3>
+                    <p>Es un lugar bonito con montanas alrededor y el clima
+                         moderado. El paisaje urbano es representativo de la arquitectura colonial y moderna, fue nombrada
+                         Patrimonio Cultural de la Humanidad por las Naciones Unidas.
+                        </p>
+                        <a href="#">Saber mas</a>
+                </div>
+            </article>
+            <article class="viajes">
+                <div>    
+                <img src=IMG/df.jpg alt="trabajos"/>
+                </div>
+                <div>
+                    <h3><a href="#">Ciudad de Mexico</a></h3>
+                    <p>Enorme capital de la República Mexicana y encierra numerosos atractivos; desde interesantes
+                        museos y hermosos edificios coloniales, hasta zonas arqueológicas, arbolados parques y 
+                        excelente gastronomía. </p>
+                        <a href="#">Saber mas</a>
+                </div>
+            </article>
+            <article class="viajes">
+                <div>    
+                <img src=IMG/cancun.jpg alt="trabajos"/>
+                </div>
+                <div>
+                    <h3><a href="#">Cancun</a></h3>
+                    <p>Con sus playas de fina arena blanca, aguas azul turquesa y espectaculares arrecifes de coral que
+                        yacen frente a sus costas, 
+                        no es ninguna sorpresa que Cancún sea uno de los destinos turísticos más populares de México</p>
+                        <a href="#">Saber mas</a>
+                </div>
+            </article>
+        </section>
+     </main>
+     <footer id="Contacto">
+        <form action="" method="get" class="formulario"
+      id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+          </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+            />
+          </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div class="form-row">
+            <button>Enviar</button>
+          </div>
+          <p class="alertas" id="alertas"></p>
+      </form>
+      <div id="footer">
+      <nav>
+        <h3 class="fuente-acento">Redes sociales</h3> 
+        <ul class="footer_ul">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        
+      </nav>
+      </div>
+     </footer>
+    
+</body>
+</html>
